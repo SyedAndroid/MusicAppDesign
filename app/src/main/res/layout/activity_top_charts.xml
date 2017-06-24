@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.syed.musicstructureapp.TopCharts">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+
+            android:layout_width="@dimen/image_width"
+            android:layout_height="@dimen/list_item_height"
+            android:src="@drawable/music"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="@dimen/list_item_height"
+            android:layout_height="@dimen/list_item_height"
+            android:src="@drawable/despacito"
+
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/text_height"
+            android:textStyle="italic"
+            style="@style/CategoryStyle"
+            android:text="Despacito by Luis Fonsi "
+            android:background="@color/light_blue"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+
+            android:layout_width="@dimen/image_width"
+            android:layout_height="@dimen/list_item_height"
+            android:src="@drawable/music"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="@dimen/list_item_height"
+            android:layout_height="@dimen/list_item_height"
+            android:src="@drawable/coldplay"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/text_height"
+            android:textStyle="italic"
+            style="@style/CategoryStyle"
+            android:text="Something Just Like This by ColdPlaY"
+            android:background="@color/light_blue"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+
+            android:layout_width="@dimen/image_width"
+            android:layout_height="@dimen/list_item_height"
+            android:src="@drawable/music"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="@dimen/list_item_height"
+            android:layout_height="@dimen/list_item_height"
+            android:src="@drawable/shape"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/text_height"
+            android:textStyle="italic"
+            style="@style/CategoryStyle"
+            android:text="Shape of you by ED sheeran"
+            android:background="@color/light_blue"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+
+            android:layout_width="@dimen/image_width"
+            android:layout_height="@dimen/list_item_height"
+            android:src="@drawable/music"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="@dimen/list_item_height"
+            android:layout_height="@dimen/list_item_height"
+            android:src="@drawable/sign"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/text_height"
+            android:textStyle="italic"
+            style="@style/CategoryStyle"
+            android:text="Sign of the Times by Harry Styles "
+            android:background="@color/light_blue"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+
+            />
+
+    </LinearLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="This activity queries most played tracks on spotify applicaiton. "/>
+
+</LinearLayout>

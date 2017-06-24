@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.syed.musicstructureapp.NowPlaying"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shape of you by ED Sheeran"
+        style="@style/CategoryStyle"
+        android:background="@color/primary_color"/>
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:layout_below="@+id/textView"
+        android:src="@drawable/play"
+        android:id="@+id/imageView"
+       />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="This activity displays the track that is being played. It uses android audioplayback option by creating instance of ContentResolver "/>
+</LinearLayout>

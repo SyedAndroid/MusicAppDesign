@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue">
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+         <TextView
+
+             android:id="@+id/track"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CategoryStyle"
+            android:background="@color/light_blue"
+            android:text="@string/category_tracks" />
+
+
+
+        <TextView
+            android:id="@+id/genres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CategoryStyle"
+            android:background="@color/primary_color"
+            android:text="@string/category_genres" />
+
+
+
+        <TextView
+            android:id="@+id/top"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_blue"
+            android:text="@string/category_chart" />
+
+        <TextView
+            android:id="@+id/playlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CategoryStyle"
+            android:background="@color/primary_color"
+            android:text="@string/category_playerList" />
+
+
+
+        <TextView
+            android:id="@+id/play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CategoryStyle"
+            android:background="@color/light_blue"
+            android:text="@string/category_player" />
+
+        <TextView
+            android:id="@+id/setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CategoryStyle"
+            android:background="@color/primary_color"
+            android:text="Settings" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/linearLayout"
+            android:text="This is a music discovery app that uses Spotify  API to retrieve songs. The app further retreives top music tracks based on selected genres from spotify database.  " />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+

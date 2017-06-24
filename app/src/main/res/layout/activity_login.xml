@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.syed.musicstructureapp.Login"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/linearLayout">
+
+    <ImageView
+        android:id="@+id/spot"
+        android:layout_width="74dp"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/spotify"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login with Spotify premium"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        style="@style/CategoryStyle"
+        android:background="@color/light_blue"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        />
+   </LinearLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="The user enters his spotify account details which will be used to authenticate and retreive songs from spotify APIs"
+    android:layout_below="@+id/linearLayout"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="11dp" />
+</RelativeLayout>
